@@ -6,7 +6,7 @@ This is about knowing the differences between visible, declared, defined. these 
 <!---
 personal note: use ctrl+f and lookup "continued" to find where you haven't finish.
 -->
-
+   
 ## Learning objectives (keywords)
 * Visible
 * Declared and defined
@@ -70,6 +70,7 @@ let outer_let = 'defined';
 >"innerer_let" is defined as "block 2". Both "inner_let" and "innerer_let" are visible in the block scope.   
 5. Both block scopes are destroyed, "inner_let" and "innerer_let" no longer exist.   
 6. Final state. "outer_let" is still there, it was declared in the global scope. "inner_let" is no longer there, it was declared in the block scope and was not hoisted, same with "innerer_let".   
+   
 ## Code snippet #4 (Temporal Dead Zone)
 ```js
 console.log(aVar); // undefined
@@ -82,14 +83,15 @@ let aLet = 2;
   - Accessing a var before it is declared has the result undefined; accessing a let or const before it is declared throws ReferenceError:
 - It appears from these examples that let declarations (and const, which works the same way) may not be hoisted, since aLet does not appear to exist before it is assigned a value.
 - That is not the case, however—let and const are hoisted (like var, class and function), but there is a period between entering scope and being declared where they cannot be accessed.
-## Study Links
+   
+## Helpful links
 [repl.it](https://repl.it/@colevandersWands/primitive-types)  
 [PythonTutor](https://goo.gl/QahvNv)  
 [debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)  
 sketches : insert img here l8ter _to be continued_
-
+[W3 Schools hoisting](https://www.w3schools.com/js/js_hoisting.asp)
+   
 ## Vocabulary
-
 - Visible:   
 - Declared:   
 - Defined:   
