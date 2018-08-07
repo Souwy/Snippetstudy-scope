@@ -20,7 +20,8 @@ console.log(y)
 
 let y = 7; // Initialize y
 ```
-[PythonTutor #1](https://goo.gl/VB7nJr)
+[PythonTutor #1](https://goo.gl/VB7nJr)   
+   
 Here, I receive an error that y is NOT DEFINED (>< undefined!) because I ask JS to print (console.log). but y is located AFTER I apply ```.log``` method to my variable ```console```. That is because let is not a variable that is hoisted by JS console.   
    
 Hoisting is "JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function)." (W3 Schools)
