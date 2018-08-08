@@ -1,4 +1,4 @@
-# Snippetstudy_scope
+# Snippetstudy_Scope
 
 ## Description
 This is about knowing the differences between visible, declared, defined. these concepts are closely related to the concept of hoisting.
