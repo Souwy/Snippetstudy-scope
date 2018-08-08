@@ -84,32 +84,30 @@ let aLet = 2;
 - It appears from these examples that let declarations (and const, which works the same way) may not be hoisted, since aLet does not appear to exist before it is assigned a value.
 - That is not the case, however—let and const are hoisted (like var, class and function), but there is a period between entering scope and being declared where they cannot be accessed.
    
-## Helpful links
-[repl.it](https://repl.it/@colevandersWands/primitive-types)  
-[PythonTutor](https://goo.gl/QahvNv)  
-[debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)  
-sketches : insert img here l8ter _to be continued_
-[W3 Schools hoisting](https://www.w3schools.com/js/js_hoisting.asp)
-   
 ## Vocabulary
-- Visible:   
-- Declared:   
-- Defined:   
-- Hoisted:   
-- Creation phase: What happens before the first line is executed. Mostly just hoisting. You can see what happened in the creation phase, it's what PythonTutor displays before you click the forward button for the first time.   
-- Execution phase: Everything that happens after the creation phase.   
+- **Visible**:   
+- **Declared**:   
+- **Defined**:   
+- **Hoisted**:   
+- **Creation phase**: What happens before the first line is executed. Mostly just hoisting. You can see what happened in the creation phase, it's what PythonTutor displays before you click the forward button for the first time.   
+- **Eecution phase**: Everything that happens after the creation phase.   
  
-Initialize: to declare and define a variable.   
-Declare: to tell the console that the variable is there, but the value is not defined yet (therefore it is set to undefined).   
-Assign: to add a value to a variable.   
+- **Initialize**: to declare and define a variable.   
+- **Declare**: to tell the console that the variable is there, but the value is not defined yet (therefore it is set to undefined).   
+- **Assign**: to add a value to a variable.   
 
 ## Review
 * Struggles: 
 
 * Learning objectives that need extra work?   
 
-* next steps: 
-
-  
+* Next steps: 
+   
+## Helpful links
+[repl.it](https://repl.it/@colevandersWands/primitive-types)  
+[PythonTutor](https://goo.gl/QahvNv)  
+[debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)  
+sketches : insert img here l8ter _to be continued_
+[W3 Schools hoisting](https://www.w3schools.com/js/js_hoisting.asp)
 
 
